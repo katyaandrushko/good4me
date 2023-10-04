@@ -1,0 +1,202 @@
+.footer {
+
+    width: 1440px;
+    position: relative;
+
+    @media only screen and (max-width: 1920px) and (min-width:1450px) {
+        width: 1920px;
+    }
+
+
+    .mainphoto {
+        position: relative;
+        z-index: 1;
+        padding-top: 137px;
+        min-width: 1440px;
+
+        @media only screen and (max-width: 1920px) and (min-width:1450px) {
+            width: 1920px;
+        }
+
+    }
+
+    .slideshow {
+        position: absolute;
+        z-index: 2;
+        padding-top: 120px;
+
+    }
+
+    .insidepict {
+        position: absolute;
+        z-index: 2;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 280px;
+
+
+
+
+
+    }
+
+    .footercontent {
+        position: relative;
+        display: flex;
+    }
+
+    .textinsideleft {
+        display: flex;
+
+        padding-top: 150px;
+        text-align: center;
+
+        @media only screen and (max-width: 1440px) and (min-width:560px) {
+            padding-left: 260px;
+        }
+
+        .desc {
+            width: 326px;
+            font-family: Jost;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px;
+            color: #454545;
+        }
+    }
+
+
+
+    .textinsidecenter {
+
+        .title {
+            text-align: center;
+            padding-top: 160px;
+            font-family: Jost;
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 26px;
+        }
+
+        .desc {
+            text-align: center;
+            width: 326px;
+            font-family: Jost;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px;
+            color: #454545;
+
+        }
+
+        .formgroup {
+            padding-top: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .form__field {
+
+            font-family: inherit;
+            width: 100%;
+            border: 0;
+            border-bottom: 2px solid #9b9b9b;
+            outline: 0;
+            font-size: 1.3rem;
+            color: #131212;
+            padding: 7px 0;
+            background: transparent;
+            transition: border-color 0.2s;
+        }
+
+
+
+        .form__field:focus {
+            ~.form__label {
+                position: absolute;
+                top: 0;
+                display: block;
+                transition: 0.2s;
+                font-size: 1rem;
+                color: #11998e;
+                font-weight: 700;
+            }
+
+            padding-bottom: 6px;
+            font-weight: 500;
+            border-width: 3px;
+            border-image: linear-gradient(to right, #dd5c31, #e78f5c);
+            border-image-slice: 1;
+        }
+    }
+
+    .rightside {
+
+        // @media only screen and (max-width: 1440px) and (min-width:560px) {
+
+        //     max-width: 1440px;
+        //     display: flex;
+        //     align-items: center;
+        //     justify-content: center;
+        //     padding-right: 400px;
+        // }
+
+        .title {
+            text-align: center;
+            padding-top: 255px;
+            padding-left: 28px;
+            text-align: center;
+            font-family: Jost;
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 26px;
+
+            // @media only screen and (max-width: 1440px) and (min-width:560px) {
+            //     padding-right: 500px;
+            //     padding-top: 240px;
+            //     display: flex;
+            //     align-items: center;
+            // }
+        }
+
+
+        .listinfoot {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .list {
+
+            font-family: Jost;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 33px;
+            color: #454545;
+
+            @media only screen and (max-width: 1440px) and (min-width:560px) {
+                font-style: 15px;
+                width: 300px;
+            }
+
+
+        }
+
+
+    }
+
+
+
+}

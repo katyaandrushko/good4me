@@ -1,0 +1,82 @@
+.shop {
+    width: 1440px;
+
+    @media only screen and (max-width: 1920px) and (min-width:1450px) {
+        width: 1920px;
+    }
+
+    .deal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        .title {
+            font-family: Jost;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 32px;
+        }
+
+        .rectangle {
+            width: 127px;
+            height: 4px;
+            background-color: #F6623E;
+
+        }
+
+        .subtitle {
+            font-family: Jost;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px
+        }
+    }
+
+
+}
+
+.shop-vitamins {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 31px;
+    text-align: center;
+    padding-top: 30px;
+
+    @media only screen and (max-width: 1440px) and (min-width:500px) {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        justify-items: center;
+        // gap: 10px;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+
+
+    .desc {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 24px;
+    }
+
+
+    .bigreactangle {
+        width: 397px;
+        height: 410px;
+        border: 1px solid #E8E8E8;
+        background: #F4F3F4;
+
+
+        .multi {
+            padding-top: 40px;
+
+        }
+
+
+    }
+}

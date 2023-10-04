@@ -1,0 +1,52 @@
+.products {
+    width: 1440px;
+
+    @media only screen and (max-width: 1920px) and (min-width:1450px) {
+        width: 1920px;
+    }
+
+    .deal {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .title {
+            font-family: Jost;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 32px
+        }
+    }
+
+
+    .desc {
+        margin: 0;
+        padding-top: 10px;
+    }
+
+    .price {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+
+        .newprice {
+            color: #F6623E;
+            font-family: Jost;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+        }
+
+        .oldprice {
+            font-family: Jost;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+            color: #9D9D9D;
+            text-decoration-line: line-through;
+        }
+    }
+}

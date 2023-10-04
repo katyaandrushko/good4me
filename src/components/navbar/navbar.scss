@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+
+
+    .under-nav {
+        background-color: #F6623E;
+        display: flex;
+        width: 1440px;
+        margin: 0;
+        color: #fff;
+        height: 50px;
+
+        @media (max-width: 1920px) {
+            width: 1920px;
+        }
+    }
+
+    .text {
+        font-family: Jost;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        padding-left: 120px;
+
+    }
+
+    .navbar {
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+    }
+
+    .logo {
+        padding-left: 110px;
+        padding-right: 150px;
+
+
+        @media only screen and (max-width: 1920px) and (min-width:1450px) {
+            padding-right: 270px;
+        }
+    }
+
+    .nav-links {
+        display: flex;
+        justify-content: end;
+        gap: 40px;
+        align-items: center;
+        list-style: none;
+        font-family: Jost;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        padding-right: 150px;
+
+
+        a span {
+            color: #F6623E;
+        }
+
+        @media only screen and (max-width: 1920px) and (min-width:1450px) {
+            gap: 60px;
+            padding-right: 392px;
+        }
+
+
+    }
+
+
+
+    .rightside {
+        display: flex;
+        align-items: center;
+        gap: 17.14px;
+        padding-right: 137px;
+
+        .minicircle {
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            background-color: #F6623E;
+            color: #fff;
+            font-family: Jost;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 400;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            z-index: 2;
+            left: 9px;
+            bottom: 5px;
+
+
+        }
+
+        .loupe {
+            position: absolute;
+            z-index: 1;
+
+        }
+
+    }
+}

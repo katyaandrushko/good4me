@@ -1,0 +1,128 @@
+.containercon {
+    max-width: 136px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+
+
+    .rectanglebig {
+        width: 1150px;
+        height: 670px;
+        background-color: rgba(255, 248, 246, 1);
+        display: flex;
+
+        @media only screen and (max-width: 1440px) and (min-width:500px) {
+            height: 650px;
+            align-items: center;
+        }
+
+
+        .textcon {
+            padding-top: 100px;
+            padding-left: 150px;
+            display: flex;
+            flex-direction: column;
+            padding-right: 300px;
+
+
+            @media only screen and (max-width: 1440px) and (min-width:500px) {
+                padding-top: 50px;
+                padding-left: 50px;
+                padding-right: 60px;
+            }
+
+        }
+
+        .titlecon {
+            width: 515px;
+            color: #000;
+            font-feature-settings: 'clig' off, 'liga' off;
+            font-family: Jost;
+            font-size: 50px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 72px;
+            letter-spacing: 3px;
+        }
+
+        .subtitlecon {
+            color: #454545;
+            font-family: Jost;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 25px;
+            margin: 0;
+            padding-top: 12px;
+
+        }
+
+        .subtitlecon3 {
+            color: #454545;
+            font-family: Jost;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 25px;
+            padding-bottom: 34px;
+        }
+
+
+        .btncon {
+            font-family: Jost;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 25px;
+            text-align: center;
+            background-color: #FFF8F6;
+            border: 2px solid #F6623E;
+            width: 254px;
+            height: 56px;
+            cursor: pointer;
+
+        }
+
+
+        .righside {
+
+            .imagecon {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(1, 330px);
+                gap: 10px;
+
+
+                .womanone {
+                    height: 660px;
+                }
+
+                @media only screen and (max-width: 1440px) and (min-width:500px) {
+                    .womanthree {
+                        width: 410px;
+                        height: 295px;
+
+                    }
+
+                    .womantwo {
+                        width: 410px;
+                        height: 295px;
+
+                    }
+
+                    .womanone {
+                        width: 430px;
+                        height: 642px;
+                    }
+
+
+                }
+
+            }
+
+        }
+    }
+}
+
+
+// @media only screen and (max-width: 1440px) and (min-width:500px) { }
